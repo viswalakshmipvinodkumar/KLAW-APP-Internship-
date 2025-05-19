@@ -1,0 +1,125 @@
+2025-05-19 11:39:05,950 - root - INFO - Logging initialized. Log file: logs\research_assistant_20250519_113905.log
+2025-05-19 11:39:51,416 - WDM - INFO - ====== WebDriver manager ======
+2025-05-19 11:39:57,233 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-19 11:39:57,714 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-19 11:39:58,063 - WDM - INFO - Driver [C:\Users\Viswalakshmi P Vino\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-19 11:40:00,159 - root - INFO - WebDriver initialized successfully
+2025-05-19 11:40:00,269 - root - INFO - Agent Researcher processing message
+2025-05-19 11:40:00,273 - root - INFO - ResearcherAgent processing topic: data science
+2025-05-19 11:40:00,276 - root - INFO - Researching topic: data science
+2025-05-19 11:40:11,317 - root - ERROR - Error in _extract_search_results: Message: 
+Stacktrace:
+	GetHandleVerifier [0x003AFC83+61635]
+	GetHandleVerifier [0x003AFCC4+61700]
+	(No symbol) [0x001D05D3]
+	(No symbol) [0x0021899E]
+	(No symbol) [0x00218D3B]
+	(No symbol) [0x00260E12]
+	(No symbol) [0x0023D2E4]
+	(No symbol) [0x0025E61B]
+	(No symbol) [0x0023D096]
+	(No symbol) [0x0020C840]
+	(No symbol) [0x0020D6A4]
+	GetHandleVerifier [0x006345A3+2701795]
+	GetHandleVerifier [0x0062FD26+2683238]
+	GetHandleVerifier [0x0064AA6E+2793134]
+	GetHandleVerifier [0x003C6945+155013]
+	GetHandleVerifier [0x003CD02D+181357]
+	GetHandleVerifier [0x003B74D8+92440]
+	GetHandleVerifier [0x003B7680+92864]
+	GetHandleVerifier [0x003A2070+5296]
+	BaseThreadInitThunk [0x76565D49+25]
+	RtlInitializeExceptionChain [0x776CD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x776CCFC1+561]
+
+2025-05-19 11:40:11,322 - root - WARNING - No search results found for topic: data science
+2025-05-19 11:40:11,323 - root - INFO - Agent Summarizer processing message
+2025-05-19 11:40:11,323 - root - INFO - SummarizerAgent processing 0 sources
+2025-05-19 11:40:13,552 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+].
+2025-05-19 11:40:16,041 - root - ERROR - Error in _summarize_sync: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-05-19 11:40:19,942 - root - INFO - WebDriver closed

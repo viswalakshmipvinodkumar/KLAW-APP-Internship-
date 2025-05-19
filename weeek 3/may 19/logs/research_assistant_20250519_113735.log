@@ -1,0 +1,15 @@
+2025-05-19 11:37:35,224 - root - INFO - Logging initialized. Log file: logs\research_assistant_20250519_113735.log
+2025-05-19 11:37:51,308 - WDM - INFO - ====== WebDriver manager ======
+2025-05-19 11:37:56,870 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-19 11:37:57,664 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-19 11:37:58,192 - WDM - INFO - There is no [win64] chromedriver "136.0.7103.94" for browser google-chrome "136.0.7103" in cache
+2025-05-19 11:37:58,196 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-19 11:37:59,259 - WDM - INFO - WebDriver version 136.0.7103.94 selected
+2025-05-19 11:37:59,263 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-19 11:37:59,263 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-19 11:37:59,817 - WDM - INFO - Driver downloading response is 200
+2025-05-19 11:38:06,007 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-19 11:38:08,193 - WDM - INFO - Driver has been saved in cache [C:\Users\Viswalakshmi P Vino\.wdm\drivers\chromedriver\win64\136.0.7103.94]
+2025-05-19 11:38:10,663 - root - INFO - WebDriver initialized successfully
+2025-05-19 11:38:22,777 - root - ERROR - Error in main function: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-05-19 11:38:25,296 - root - INFO - WebDriver closed
